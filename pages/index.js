@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       Base Url: {process.env.NEXT_PUBLIC_BASE_URL}
+      Secret Variable: {process.env.SECRET}
     </div>
   )
 }
